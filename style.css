@@ -36,7 +36,7 @@ body::before {
   padding: 15px;
   padding-bottom: 15px;
   background-color: #859b7b;
-  box-shadow: #121610 5px 10px 0px;
+  box-shadow: #121610 10px 10px 0px;
   border-radius: 20px;
   margin: 20px;
 }
@@ -57,7 +57,7 @@ p {
   max-width: 800px;
   padding: 30px;
   background-color: #b0bdc3;
-  box-shadow: #121610 5px 10px 0px;
+  box-shadow: #121610 10px 10px 0px;
   border-radius: 20px;
   margin: 20px;
 }
@@ -86,25 +86,25 @@ label {
 }
 .botaofinalizar button {
   background-color: #859b7b;
-  color: black;
+  color: #121610;
   border-radius: 10em;
   font-size: 10px;
   font-weight: 600;
   padding: 1em 2em;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  border: 1px solid black;
-  box-shadow: 0 0 0 0 black;
+  border: 1px solid #121610;
+  box-shadow: 0 0 0 0 #121610;
 }
 
 .botaofinalizar button:hover {
   transform: translateY(-4px) translateX(-2px);
-  box-shadow: 2px 5px 0 0 black;
+  box-shadow: 2px 5px 0 0 #121610;
 }
 
 .botaofinalizar button:active {
   transform: translateY(2px) translateX(1px);
-  box-shadow: 0 0 0 0 black;
+  box-shadow: 0 0 0 0 #121610;
 }
 
 /* Texto que exibe o resultado */
