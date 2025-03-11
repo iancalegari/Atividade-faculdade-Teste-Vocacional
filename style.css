@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f9f7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("Assets/pattern.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1; /* index -1 para exibir o pattern png a cima do background-color */
+  opacity: 0.3;
+}
+
+/* CONTAINER DE TITULO E SUBTITULO */
+
+.container {
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+  color: #121610;
+  padding: 15px;
+  padding-bottom: 15px;
+  background-color: #859b7b;
+  box-shadow: #121610 5px 10px 0px;
+  border-radius: 20px;
+  margin: 20px;
+}
+h1 {
+  font-size: 35px;
+  margin-top: 20px;
+}
+p {
+  padding-bottom: 20px;
+}
+
+/* CONTAINER DE PERGUNTAS */
+
+.container2 {
+  font-family: "Inconsolata", monospace;
+  text-align: left;
+  color: #121610;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #b0bdc3;
+  box-shadow: #121610 5px 10px 0px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+p {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+label {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+/* Botão personalizado que peguei aqui: https://uiverse.io/sekaiking/tidy-starfish-71 */
+
+.botaofinalizar {
+  margin-top: 20px;
+  text-align: center;
+}
+.botaofinalizar button {
+  background-color: #859b7b;
+  color: black;
+  border-radius: 10em;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+.botaofinalizar button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+.botaofinalizar button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+/* Texto que exibe o resultado */
+
+.resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #121610;
+  padding: 10px;
+}
