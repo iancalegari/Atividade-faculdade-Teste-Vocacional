@@ -54,7 +54,7 @@ p {
   font-family: "Inconsolata", monospace;
   text-align: left;
   color: #121610;
-  max-width: 800px;
+  max-width: auto;
   padding: 30px;
   background-color: #b0bdc3;
   box-shadow: #121610 10px 10px 0px;
